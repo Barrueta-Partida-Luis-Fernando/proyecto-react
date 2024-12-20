@@ -1,0 +1,192 @@
+/* Variables globales */
+:root {
+  --primary-color: #000;
+  --secondary-color: #ffcc00;
+  --link-color: #ffcc00;
+  --background-color: #e0e0e0;
+  --text-color: #fff;
+  --shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-image: url('https://content.discogs.com/media/Essential-90s-Hip-Hop-2.png');
+  background-size: 1200px;
+  background-position: center;
+  color: #fff;
+  margin: 0;
+  height: 100vh;
+}
+
+.app {
+  background-color: var(--primary-color);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.navbar {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  border-bottom: 5px solid var(--secondary-color);
+  width: 100%;
+  z-index: 1000;
+  border-radius: 8px 8px 0 0;
+  margin: 0;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar li {
+  margin: 0;
+}
+
+.navbar a {
+  color: #ffcc00;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: rgba(255, 204, 0, 0.3);
+}
+
+/* Estilos de componentes */
+.common-background {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  width: 100%;
+  margin-top: 0;
+}
+
+
+.form-container {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  margin: 2rem auto;
+  width: 500px; 
+  border-radius: 8px; 
+}
+
+
+form {
+  width: 100%;
+}
+
+form label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+form input, form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc93;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+form button:hover {
+  background-color: #fa0101;
+}
+
+
+.content {
+  width: 100%;
+}
+
+.common-background {
+  background-color: #000;
+  padding: 2rem;
+  border-radius: 8px;
+  border-top-right-radius: 0px;
+  width: 1168px;
+  margin-top: 0;
+}
+
+
+.artist-title, .album-title, .login-title {
+  font-size: 1.5rem; 
+  color: #ffcc00; 
+  text-align: center; 
+  margin: 1rem 0; 
+}
+
+
+.artist-list, .album-list {
+  list-style-type: none;
+  padding: 0; 
+  text-align: center; 
+}
+
+.artist-list li, .album-list li {
+  font-size: 1.2rem; 
+  color: #ffffff; 
+  margin: 0.5rem 0; 
+}
+
+
+.artist-list a, .album-list a {
+  color: #ffcc00;
+  font-size: 1.5rem; 
+  text-decoration: none;
+}
+
+.artist-list a:hover, .album-list a:hover {
+  color: #ffffff;
+}
+
+
+input {
+  width: 80%; 
+  padding: 0.5rem; 
+  margin: 0.5rem 0; 
+  border-radius: 4px; 
+  border: 1px solid #ccc; 
+}
+
+
+button {
+  background-color: #ffcc00; 
+  color: #000;
+  padding: 0.5rem;
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer; 
+  margin-top: 1rem; 
+  width: 60%; 
+  font-size: 1.2rem;
+  text-align: center; 
+}
+
+
+h1 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+  
